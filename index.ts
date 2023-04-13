@@ -10,7 +10,5 @@ app.listen(3000, ()=>console.log('Your app with ts is woking fine. Go ahead.'))
 
 app.get('/', (req : Request, res : Response)=>{
 
-    req.accepts()
-
     res.send('Your app with ts is woking fine. Go ahead.')
 })
